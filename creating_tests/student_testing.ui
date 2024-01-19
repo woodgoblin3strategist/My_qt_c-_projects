@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentTesting</class>
+ <widget class="QWidget" name="StudentTesting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="proverka_batton">
+   <property name="geometry">
+    <rect>
+     <x>668</x>
+     <y>10</y>
+     <width>121</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>studentWindow</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="questionEdit">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>30</y>
+     <width>261</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>130</y>
+     <width>261</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
+  <widget class="QPushButton" name="nextQuestionButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>550</y>
+     <width>161</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>следующий вопрос</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

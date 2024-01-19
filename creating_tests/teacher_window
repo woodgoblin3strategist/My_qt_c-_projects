@@ -1,0 +1,13 @@
+#ifndef TEACHER_WINDOW_H
+#define TEACHER_WINDOW_H
+
+#include <QObject>
+#include <QWidget>
+
+class teacher_student
+{
+public:
+    teacher_student();
+};
+
+#endif // TEACHER_WINDOW_H

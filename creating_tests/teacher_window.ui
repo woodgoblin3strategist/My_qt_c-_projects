@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TeacherWindow</class>
+ <widget class="QWidget" name="TeacherWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>вы учитель</string>
+  </property>
+  <widget class="QPushButton" name="proverka_batton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>97</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MainWindow</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>160</width>
+     <height>89</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="createFile">
+      <property name="text">
+       <string>createFile</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="editingTestButton">
+      <property name="text">
+       <string>editTest</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="openFile">
+      <property name="text">
+       <string>openResults</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
